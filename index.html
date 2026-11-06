@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Happy Birthday Salma ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:wght@300;400;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="petals"></div><div id="stars"></div><div id="clickHearts"></div>
+<button id="musicBtn" title="Music">🎵</button>
+<audio id="bgMusic" loop preload="auto"><source src="https://cdn.pixabay.com/audio/2023/09/11/audio_3c2a2c2b8d.mp3" type="audio/mpeg"></audio>
+
+<!-- 1. ENVELOPE -->
+<section id="intro" class="screen active">
+  <div class="glass intro-card">
+    <div class="envelope" id="envelope">
+      <div class="env-back"></div>
+      <div class="letter-mini">For Salma ❤️</div>
+      <div class="env-front"></div>
+      <div class="env-flap"></div>
+      <div class="heart-seal">❤️</div>
+    </div>
+    <h1 class="script">Hey Salma... ❤️</h1>
+    <p class="sub">I have something special for you.</p>
+    <button class="btn-gold" onclick="openSurprise()">OPEN YOUR SURPRISE 🎁</button>
+    <p class="tiny">Made with all my love • Just for you</p>
+  </div>
+</section>
+
+<!-- 2. BIRTHDAY -->
+<section id="birthday" class="screen">
+  <div class="fireworks" id="fireworks"></div>
+  <span class="badge">✨ 6 November • A Special Day ✨</span>
+  <h2 class="big-title">HAPPY<br>BIRTHDAY<br><span class="gold-text">SALMA ❤️</span></h2>
+  <div class="cake-wrap">
+    <div class="cake">
+      <div class="flame"></div><div class="flame f2"></div><div class="flame f3"></div>
+      <div class="candle"></div><div class="candle c2"></div><div class="candle c3"></div>
+      <div class="cake-top">🎂</div>
+      <div class="cake-body"><span>SALMA</span></div>
+      <div class="plate"></div>
+    </div>
+  </div>
+  <div class="glass msg-card">
+    <p>Today is not just another day.<br>Today is the day a beautiful soul was born.</p>
+    <p><b>Salma, you are a special person.</b><br>Your smile makes everything more beautiful.<br>I wish you endless happiness, success and love.</p>
+    <p>You deserve all the beautiful things in this world.</p>
+    <h3 class="script">Happy Birthday, My Princess! ❤️</h3>
+  </div>
+  <button class="btn-pink" onclick="goTo('kitten')">Continue My Love → 💖</button>
+</section>
+
+<!-- 3. KITTEN -->
+<section id="kitten" class="screen">
+  <h2 class="section-title">A Hug For You 🤍</h2>
+  <div class="kitten-card">
+    <div class="kitten-float">
+      <!-- Cute White Kitten Hugging Heart - Pure CSS/SVG -->
+      <svg viewBox="0 0 300 300" class="kitten-svg">
+        <defs><radialGradient id="fur" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#ffe9f2"/></radialGradient></defs>
+        <!-- Tail --><path d="M45 220 Q10 180 45 140 Q60 170 50 200" fill="#fff" stroke="#ffb6cd" stroke-width="3"/>
+        <!-- Ears --><path d="M75 80 L85 15 L135 65 Z" fill="#fff" stroke="#ffb6cd" stroke-width="3"/><path d="M225 80 L215 15 L165 65 Z" fill="#fff" stroke="#ffb6cd" stroke-width="3"/><path d="M90 65 L93 35 L112 60 Z" fill="#ffb6cd"/><path d="M210 65 L207 35 L188 60 Z" fill="#ffb6cd"/>
+        <!-- Body --><ellipse cx="150" cy="190" rx="95" ry="85" fill="url(#fur)" stroke="#ffb6cd" stroke-width="3"/>
+        <!-- Head --><circle cx="150" cy="105" r="78" fill="url(#fur)" stroke="#ffb6cd" stroke-width="3"/>
+        <!-- Eyes --><ellipse cx="115" cy="95" rx="16" ry="19" fill="#2b2b2b"/><ellipse cx="185" cy="95" rx="16" ry="19" fill="#2b2b2b"/><circle cx="120" cy="88" r="6" fill="white"/><circle cx="190" cy="88" r="6" fill="white"/><circle cx="118" cy="99" r="2.5" fill="#ff9ec4"/><circle cx="188" cy="99" r="2.5" fill="#ff9ec4"/>
+        <!-- Blush --><ellipse cx="88" cy="125" rx="14" ry="8" fill="#ffb6cd" opacity=".7"/><ellipse cx="212" cy="125" rx="14" ry="8" fill="#ffb6cd" opacity=".7"/>
+        <!-- Nose/Mouth --><path d="M143 118 Q150 112 157 118 Q150 126 143 118" fill="#ff6b9d"/><path d="M150 126 Q140 135 130 130 M150 126 Q160 135 170 130" stroke="#555" fill="none" stroke-width="2" stroke-linecap="round"/>
+        <!-- Whiskers --><g stroke="#ffb6cd" stroke-width="1.5"><path d="M55 115 L95 120 M55 135 L95 130 M245 115 L205 120 M245 135 L205 130"/></g>
+        <!-- BIG RED HEART --><path d="M150 165 C120 130 65 150 70 190 C75 225 120 245 150 260 C180 245 225 225 230 190 C235 150 180 130 150 165 Z" fill="#ff1744" stroke="#c4002e" stroke-width="3"/><path d="M95 175 C100 160 120 160 125 175" stroke="white" fill="none" stroke-width="4" opacity=".6" stroke-linecap="round"/>
+        <!-- Paws hugging --><ellipse cx="95" cy="210" rx="22" ry="16" fill="#fff" stroke="#ffb6cd" stroke-width="2" transform="rotate(-20 95 210)"/><ellipse cx="205" cy="210" rx="22" ry="16" fill="#fff" stroke="#ffb6cd" stroke-width="2" transform="rotate(20 205 210)"/><g fill="#ffb6cd"><circle cx="90" cy="210" r="2"/><circle cx="98" cy="212" r="2"/><circle cx="202" cy="210" r="2"/><circle cx="210" cy="212" r="2"/></g>
+      </svg>
+      <div class="mini-hearts">💖 💕 💗</div>
+    </div>
+    <h3>Sending you the biggest hug, Salma ❤️</h3>
+    <p>You're my favorite person.</p>
+  </div>
+  <button class="btn-gold" onclick="goTo('reasons')">10 Reasons Why You're Special 💌</button>
+</section>
+
+<!-- 4. REASONS -->
+<section id="reasons" class="screen">
+  <h2 class="section-title">10 Reasons Why<br><span class="gold-text">You Are Special</span></h2>
+  <p class="hint">Tap a card to reveal ✨</p>
+  <div class="grid" id="reasonsGrid"></div>
+  <button class="btn-pink" onclick="goTo('letter')">Read My Letter 💌</button>
+</section>
+
+<!-- 5. LETTER -->
+<section id="letter" class="screen">
+  <div class="letter-paper">
+    <div class="stamp">❤️ SALMA</div>
+    <h2 class="script big">To My Beautiful Salma ❤️</h2>
+    <p>My Dear Salma,</p>
+    <p>I don't always find the perfect words to express my feelings.</p>
+    <p>But today, I want you to know how special you are to me.</p>
+    <p>Your smile makes my days brighter, and your presence makes everything better.</p>
+    <p>I wish you a life full of happiness, success, beautiful moments and endless smiles.</p>
+    <p>I hope all your dreams come true.</p>
+    <p><b>You deserve the whole world.</b></p>
+    <p>Happy Birthday, My Love.</p>
+    <p class="sign">With all my love ❤️<br><span class="script">Forever Yours</span></p>
+  </div>
+  <button class="btn-gold" onclick="goTo('final')">One Last Surprise → 💋</button>
+</section>
+
+<!-- 6. FINAL -->
+<section id="final" class="screen">
+  <div class="giant-heart" id="giantHeart">❤️</div>
+  <h2 class="big-title">HAPPY BIRTHDAY<br><span class="gold-text">MY BEAUTIFUL SALMA ❤️</span></h2>
+  <p class="final-msg">Today, tomorrow and always...<br>You will always have a special place in my heart.</p>
+  <button class="btn-red" onclick="kissExplosion()">ONE LAST KISS 💋</button>
+  <div id="loveFinal" class="love-final">I LOVE YOU SALMA ❤️</div>
+  <p class="tiny">Made with ❤️ only for Salma</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
